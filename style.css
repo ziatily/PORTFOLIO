@@ -196,8 +196,8 @@ header{
     margin-top: 4rem;
 }
 .skills-img img{
-    width: 80%;
-    padding-left: 4rem;
+    width: 100%;
+    padding-left: 1rem;
     object-position: center;
 }
 .bars-box{
@@ -236,29 +236,40 @@ header{
     width: 70%;
 }
 .js-bar{
-    width: 50%;
-}
-.php-bar{
-    width: 30%;
-}
-.c-bar{
     width: 55%;
 }
-.java-bar{
+.php-bar{
     width: 35%;
 }
-
+.c-bar{
+    width: 50%;
+}
+.java-bar{
+    width: 75%;
+}
+.react-bar{
+    width: 70%;
+}
+.reactnative-bar{
+    width: 70%;
+}
+.python-bar{
+    width: 90%;
+}
+.sql-bar{
+    width: 95%;
+}
 /* ===== Services Section ===========*/
 .services-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,auto));
     justify-content: center;
-    gap: 8rem;
+    gap: 4rem;
     margin-top: 2rem;
 }
 .services-box{
     padding: 20px;
-    width: 260px;
+    width: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
